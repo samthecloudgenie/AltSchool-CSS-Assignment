@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: lato;
+}
+body {
+  height: 100%;
+}
+
+/* Header design */
+header {
+  word-spacing: 3px;
+  padding: 72px 264px 50px;
+}
+header h1 {
+  font-size: 32px;
+  line-height: 38.4px;
+  font-weight: 800;
+}
+
+.first-para {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.seco-para {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+header span {
+  font-weight: 800;
+  color: #009966;
+}
+/* Main/ Main-container design */
+
+Main {
+  background-color: #666666;
+  padding: 72px 264px 65px 245px;
+  border-top:7px solid rgb(168, 164, 164);
+}
+.main-div {
+  position: relative;
+  background-color: white;
+  width: 90%;
+}
+
+.conner-con {
+  font-size: 24px;
+  line-height: 28.8px;
+  position: absolute;
+  top: 15px;
+  left: -10px;
+  background-color:#ffbf00  ;
+  padding: 15px 60px;
+  border-bottom: 8px solid #CC9900 ;
+}
+.main-container {
+  padding: 100px 41px 20px 20px;
+  line-height: 32px;
+  word-spacing: 7px;
+  font-weight: 400;
+  font-size: 20px;
+  border-bottom: 8px solid #999999;
+  
+}
+.main-para{
+  padding-top: 10px;
+}
+
+/* Designing Media Queries */
+@media screen and (max-width:1024px) {
+  header {
+
+    padding: 72px 40px 50px;
+  }
+
+  Main {
+  
+    padding: 72px 0px 65px 0px;
+  
+  }
+  .main-div {
+    
+    
+    width: 100%;
+}
+
+}
+@media screen and (max-width:768px) {
+  
+  .main-div {
+   
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .conner-con {
+    
+   width: 374px;
+    font-size: 18px;
+    padding: 10px 20px;
+    left: 0px;
+  }
+
+
+ 
+
+}

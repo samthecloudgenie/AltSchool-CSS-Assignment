@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #a7a8cd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: white solid;
+  border-width: 20px;
+}
+#container {
+  position: relative;
+  width: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header {
+  position: absolute;
+  top: 8px;
+  left: 69px;
+  background-color: #fce181;
+  width: 13rem;
+  font-size: 14px;
+  padding: 3px;
+  border-radius: 5px 18px 18px 5px;
+  text-align: center;
+}
+
+#header-watch img {
+  width: 100%;
+  display: block;
+  height: 17rem;
+}
+
+#header-watch {
+  background-color: #d2d4d5;
+  height: 31rem;
+  width: 30rem;
+  overflow: hidden;
+  border-radius: 15px;
+  letter-spacing: 1.5px;
+}
+#novusbox {
+  background-color: white;
+  padding: 3rem 1.5rem;
+}
+#novusbox span {
+  color: #bababa;
+  font-size: 20px;
+}
+#novusbox p {
+  margin-top: 1rem;
+  line-height: 1.4;
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  body {
+    /* width: 100%; */
+    border: white 10px solid;
+    padding: 0;
+    margin: 0;
+  }
+  #container {
+    width: 90%;
+    
+  }
+  #header {
+    left: 10px;
+  }
+  #header-watch {
+    width: 90%;
+    height: 100%;
+  }
+  
+  #novusbox {
+    padding: 1.6rem 1.5rem;
+    
+  }
+  #novusbox span {
+    font-size: 16px;
+  }
+  #novusbox p {
+    font-size: 16px;
+  }
+}

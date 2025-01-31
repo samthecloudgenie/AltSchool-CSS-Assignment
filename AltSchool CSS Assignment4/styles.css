@@ -1,0 +1,255 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3f7fa;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Design for the first Container */
+.First-container {
+  padding-right: 50px;
+}
+.First-container img {
+  width: 77.33px;
+  height: 80px;
+  margin-bottom: 30px;
+}
+.First-container h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -0.8px;
+  color: #000b0a;
+  margin-bottom: 20px;
+}
+.First-container p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #737373;
+  word-spacing: 2px;
+  width: 440px;
+}
+/* Design for Form Container */
+.form-container {
+  padding: 30px;
+  box-shadow: 0px 4px 50px 0px #0817171a;
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.names-con {
+  display: flex;
+  justify-content: space-between;
+  line-height: 40px;
+  gap: 20px;
+}
+.names-con input,
+.names-con select {
+  width: 250px;
+  height: 50px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+select:invalid {
+  color: gray;
+}
+option {
+  color: black;
+}
+
+.active-pass1 input,
+.active-pass select {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.active-pass {
+  line-height: 40px;
+}
+
+.active-pass1 {
+  position: relative;
+  line-height: 40px;
+}
+
+.icon-div {
+  position: absolute;
+  top: 45px;
+  right: 20px;
+  color: #737373;
+}
+button {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  background: #2ec4b6;
+  color: white;
+  cursor: pointer;
+}
+.pagas {
+  font-size: 15px;
+  text-align: center;
+  line-height: 5px;
+}
+a {
+  color: #2ec4b6;
+
+  font-weight: 500;
+  text-decoration-line: underline;
+  font-size: 15px;
+}
+
+.active-pass1 input:hover,
+.active-pass1 input:focus,
+.active-pass select:hover,
+.active-pass select:focus,
+.names-con input :hover,
+.names-con input:focus,
+.names-con select:hover,
+.names-con select:focus {
+  outline: 1.5px solid #737373;
+}
+button:hover,
+button:focus {
+  outline: #737373;
+}
+/* Designing fir Media Queries */
+
+@media screen and (max-width: 1024px) {
+  /* Main container Media */
+  .main-box {
+    display: block;
+    margin-top: 50px;
+    width: 85%;
+  }
+  .First-container {
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .First-container img {
+    width: 38.67px;
+    height: 40px;
+  }
+
+  .First-container h1 {
+    font-size: 30px;
+  }
+  .First-container p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    width: 100%;
+  }
+  /* Media for Form container */
+  .form-container {
+    width: 100%;
+    padding: 25px;
+    height: 990px;
+    margin-bottom: 150px;
+  }
+
+  .names-con {
+    display: block;
+    line-height: 40px;
+  }
+  .names-con input,
+  .names-con select,
+  .active-pass1 input,
+  .active-pass select {
+    width: 100%;
+    font-size: 16px;
+  }
+  button {
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 16px;
+  }
+  .pagas {
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Main container Media */
+  .main-box {
+    display: block;
+    margin-top: 50px;
+    width: 90%;
+  }
+  .First-container {
+    padding-right: 0px;
+    margin-bottom: 30px;
+  }
+
+  .First-container img {
+    width: 38.67px;
+    height: 40px;
+  }
+
+  .First-container h1 {
+    font-size: 30px;
+  }
+  .First-container p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 100%;
+  }
+  /* Media for Form container */
+  .form-container {
+    width: 100%;
+    padding: 10px;
+    height: 900px;
+    margin-bottom: 150px;
+  }
+
+  .names-con {
+    display: block;
+
+    line-height: 30px;
+  }
+  .names-con input,
+  .names-con select,
+  .active-pass1 input,
+  .active-pass select {
+    width: 100%;
+  }
+  button {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .pagas {
+    line-height: 25px;
+  }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 4</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="main-box">
+      <div class="First-container">
+        <img src="./Asset/icon.svg" alt="icon" />
+
+        <h1>For Individuals</h1>
+        <p class="main-box-para">
+          Start benefiting from the wellness experience. For 
+          companies looking on increasing productivity, and improving 
+          organization wellness.
+        </p>
+      </div>
+      <div class="form-container">
+        <form action="">
+          <div class="names-con">
+            <div>
+              <label for="Firstname">First Name</label>
+              <input type="text" placeholder="First Name" required />
+            </div>
+            <div>
+              <label for="Lastname">Last Name</label>
+              <input type="text" placeholder="Last Name" required />
+            </div>
+          </div>
+          <div class="names-con">
+            <div>
+              <label for="">Gender</label>
+              <select required>
+                <option value="" disabled selected hidden>Select here</option>
+                <option value="male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>
+            <div>
+              <label for="dob"> Date of Birth</label>
+              <input type="date" placeholder="Date of birth" required />
+            </div>
+          </div>
+          <div class="names-con">
+            <div>
+              <label for="Weight">Weight (Kg)</label>
+              <input type="number" placeholder="Enter weight" required />
+            </div>
+            <div>
+              <label for="Height (CM)">Height (CM)</label>
+              <input
+                type="number"
+                placeholder="Enter height here..."
+                required
+              />
+            </div>
+          </div>
+          <div class="active-pass">
+            <div>
+              <label for="">Activity Level</label>
+              <select required>
+                <option value="" disabled selected hidden>select here</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+              </select>
+            </div>
+          </div>
+          <div class="active-pass1">
+            <div>
+              <label for="password">Password</label>
+              <input type="password" placeholder="password" required />
+            </div>
+            <div class="icon-div"><i class="fa fa-eye" id="toggle_password"></i></div>
+          </div>
+          <button type="submit">Register</button>
+          <p class="pagas">
+            By clicking Register, you agree to our
+            <a href="">Terms of Use</a>  and our <a href="">Privacy Policy.</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
