@@ -116,7 +116,7 @@ body {
 
 .main .main-con1 .basic-info h4 span,
 .main .main-con1 .cc-con h4 span,
-.main .main-con1 .pusher div {
+.main .main-con1 .pusher div i {
   color: var(--freelancerBg);
   border: 1px solid var(--freelancerBg);
   width: 20px;
@@ -211,7 +211,7 @@ body {
 .main .main-con1 .pusher div {
     display:flex;
     justify-content: center;
-    margin: auto;
+    margin: 0 auto;
     width: 70%;
     text-align: start;
     align-items: center;
@@ -259,7 +259,7 @@ body {
   position: absolute;
     width: 312px;
     height: 633px;
-    left: 745px;
+    left: 810px;
     /* top: 186px; */
 }
 
